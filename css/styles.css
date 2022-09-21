@@ -76,7 +76,7 @@ img {
 .logo__header {
  color: var(--primary-black-color);
 }
-.logo--indent {
+.logo--header-indent {
   margin-right: 93px;
 }
 
