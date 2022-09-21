@@ -248,101 +248,105 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-items">
-          <a href="./index.html" class="logo footer-logo"
-            ><span class="logo-first-word">Web</span><span class="logo-second-word">Studio</span></a
-          >
+      <div class="container footer__container">
 
-          <address class="address">
-            <ul class="list footer-address">
-              <li class="footer-link">
+        <div class="footer-contacts-wrap footer-contacts-wrap--indent">
+          <a href="./index.html" class="logo logo--footer-indent"
+            >Web<span class="logo__footer">Studio</span></a
+          >
+          <address class="footer-contacts">
+            <ul class="list footer-contacts__list">
+              <li class="footer-contacts__item">
                 <a
                   href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                   target="_blank"
                   rel="noreferrer noopener nofollow"
-                  class="footer-link-location"
+                  class="footer-contacts__link footer-contacts__link--address"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-link">
-                <a href="mailto:info@devstudio.com" class="footer-link-item">info@devstudio.com</a>
+              <li class="footer-contacts__item">
+                <a href="mailto:info@devstudio.com" class="footer-contacts__link">info@devstudio.com</a>
               </li>
-              <li class="footer-link">
-                <a href="tel:+380961111111" class="footer-link-item">+38 096 111 11 11</a>
+              <li class="footer-contacts__item">
+                <a href="tel:+380961111111" class="footer-contacts__link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-socials">
-          <p class="footer-text">Приєднуйтесь</p>
-          <ul class="list footer-socials-list">
-            <li>
+
+        <div class="footer-socials footer-socials--indent">
+          <p class="footer-socials__caption footer-socials__caption--indent">Приєднуйтесь</p>
+          <ul class="list footer-socials__list">
+            <li class="footer-socials__item">
               <a
-                class="footer-socials-link"
+                class="footer-socials__link"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
               >
-                <svg class="footer-socials-icon" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer-socials__item">
               <a
-                class="footer-socials-link"
+                class="footer-socials__link"
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
               >
-                <svg class="footer-socials-icon" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer-socials__item">
               <a
-                class="footer-socials-link"
+                class="footer-socials__link"
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <svg class="footer-socials-icon" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer-socials__item">
               <a
-                class="footer-socials-link"
+                class="footer-socials__link"
                 href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Linkedin"
               >
-                <svg class="footer-socials-icon" width="20" height="20">
+                <svg class="footer-socials__icon" width="20" height="20">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+
         <div class="footer-form">
-          <label class="footer-form-title" for="subscription">Підпишіться на розсилку</label>
-          <div class="footer-form-item">
-          <input class="footer-form-input" type="email"  name="subscription-email" id="subscription" placeholder="E-mail"></input>
+          <label class="footer-form__caption footer-form__caption--indent" for="subscription">Підпишіться на розсилку</label>
+          <div class="footer-form__wrap footer-form__wrap--indent">
+          <input class="footer-form__input" type="email"  name="subscription-email" id="subscription" placeholder="E-mail"></input>
          
-          <button class="footer-form-btn" type="submit">
-            <span class="footer-form-btn-name">Підписатися</span>
-            <svg class="footer-form-icon" witdh="24px" height="24px">
+          <button class="footer-button" type="submit">
+            <span class="footer-button__label">Підписатися</span>
+            <svg class="footer-button__icon" witdh="24px" height="24px">
               <use href="./images/icons.svg#telegram"></use>
             </svg>
           </button>
           </div>
+        </div>
+
       </div>
     </footer>
   </body>
