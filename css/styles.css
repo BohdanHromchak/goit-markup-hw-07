@@ -333,10 +333,9 @@ img {
   max-width: 1600px;
   margin: 0 auto;
 }
-.hero-title {
+.hero__title {
   width: 696px;
   margin: 0 auto;
-  margin-bottom: 30px;
 
   text-transform: uppercase;
   font-weight: 900;
@@ -345,7 +344,10 @@ img {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
 }
-.hero-button {
+.hero__title--indent {
+  margin-bottom: 30px;
+}
+.hero__button {
   padding: 10px 32px;
   margin: 0 auto;
 
@@ -362,8 +364,8 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--button-background-focus);
 }
 
@@ -380,39 +382,11 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-.values-section {
+.features__list {
   display: flex;
+  gap: 30px;
 }
-.values-section-item:not(:last-child) {
-  margin-right: 30px;
-}
-.post-title {
-  margin-bottom: 50px;
-
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  color: var(--primary-text-color);
-}
-.subtitle {
-  width: 270px;
-  margin-bottom: 10px;
-
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  color: var(--primary-text-color);
-}
-.text {
-  width: 270px;
-  margin: 0;
-
-  line-height: 1.71;
-  color: var(--secondary-text-color);
-}
-.values-section-icon {
+.features__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,58 +396,89 @@ img {
 
   background: var(--another-background-color);
 }
+.features__subtitle {
+  width: 270px;
+  margin-bottom: 10px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+.features__desc {
+  width: 270px;
+  margin: 0;
+
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
 
 /* Чим ми займаємося */
-.activities-section {
+.activities-section--indent {
   padding-top: 0;
 }
-.activities-section-list {
-  display: flex;
+.activities__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
 }
-.activities-section-image {
+.activities__title--indent {
+  margin-bottom: 50px;
+}
+.activities__list {
+  display: flex;
+  gap: 30px;
+}
+.activities__item {
   position: relative;
 }
-.activities-section-image:not(:last-child) {
-  margin-right: 30px;
-}
-.activities-section-text {
+
+.activities__subtitle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-white-color);
   background-color: var(--position-background-color);
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 370px;
   height: 70px;
-
   position: absolute;
   bottom: 0;
 }
 
 /* Наша команда */
-.team-section {
+.team-section--color {
   background-color: var(--another-background-color);
 }
-.team-section-list {
-  display: flex;
+.team__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
 }
-.team-section-item {
+.team__title--indent {
+  margin-bottom: 50px;
+}
+.team__list {
+  display: flex;
+  gap: 30px;
+}
+.team__item {
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-section-item:not(:last-child) {
-  margin-right: 30px;
-}
-.member-caption {
+.member {
   padding: 30px 0 30px;
 }
-.team-member-name {
+.member__name {
   margin-bottom: 10px;
   text-align: center;
 
@@ -482,7 +487,7 @@ img {
   line-height: 1.17;
   color: var(--primary-text-color);
 }
-.team-member-position {
+.member__position {
   text-align: center;
   margin-bottom: 16px;
 
@@ -495,7 +500,7 @@ img {
   gap: 10px;
   justify-content: center;
 }
-.socials-link {
+.socials__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -508,46 +513,54 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.socials-link:hover,
-.socials-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.socials-icon {
+.socials__icon {
   fill: currentColor;
 }
 
 /* Постійні клієнти */
-.clients-section {
+.clients__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+.clients__title--indent {
+  margin-bottom: 50px;
+}
+.clients_list {
   display: flex;
   gap: 30px;
 }
-.clients-section-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
-.clients-section-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-
   cursor: pointer;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: var(--icon-fill);
-
+  
   transition-property: color, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-section-icon {
+.clients__icon {
   fill: currentColor;
 }
-
-.clients-section-link:hover,
-.clients-section-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
