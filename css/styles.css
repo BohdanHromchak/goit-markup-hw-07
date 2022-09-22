@@ -1,4 +1,16 @@
-:root {
+/* :root {
+  Fonts 
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  Text colors 
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --footer-location-color: #ffffff99;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+
+  BG colors 
   --secondary-background-color: #2f303a;
   --another-background-color: #f5f4fa;
   --button-background-focus: #188ce8;
@@ -6,18 +18,17 @@
   --another-position-background-color: #2196f3e5;
   --modal-background-color: #00000033;
   --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --primary-black-color: #000000;
-  --footer-location-color: #ffffff99;
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
+
+  Others 
   --border-color: #eeeeee;
   --header-border-bottom: #ececec;
+
   --icon-fill: #afb1b8;
   --icon-fill-footer: #ffffff1a;
+
   --placeholder-color: #75757580;
   --footer-placeholder-color: #ffffff99;
-}
+} */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -370,7 +381,7 @@ img {
 }
 
 /* Наші особливості  */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -381,7 +392,7 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 .features__list {
   display: flex;
   gap: 30px;
