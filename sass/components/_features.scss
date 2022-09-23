@@ -1,0 +1,37 @@
+/* Наші особливості  */
+.features {
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+
+        background: var(--light-bg-cl);
+    }
+
+    &__subtitle {
+        width: 270px;
+        margin-bottom: 10px;
+
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        color: var(--primary-txt-cl);
+    }
+
+    &__desc {
+        width: 270px;
+        margin: 0;
+
+        line-height: 1.71;
+        color: var(--secondary-txt-cl);
+    }
+}

@@ -1,28 +1,30 @@
-/* header logo */
+/* logo */
 .logo {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.38;
-    color: var(--accent-cl);
-}
+    & {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.38;
+        color: var(--accent-cl);
+    }
 
-.logo__header {
-    color: var(--black-txt-cl);
-}
+    &__header {
+        color: var(--black-txt-cl);
+    }
 
-.logo--header-indent {
-    margin-right: 93px;
-}
+    &--header-indent {
+        margin-right: 93px;
+    }
 
-/* footer logo */
-.logo--footer-indent {
-    margin-right: 0;
-    display: block;
-    margin-bottom: 20px;
-}
 
-.logo__footer {
-    color: var(--white-txt-cl);
+    &--footer-indent {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    &__footer {
+        color: var(--white-txt-cl);
+    }
 }
