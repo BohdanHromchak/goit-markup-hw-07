@@ -1,9 +1,7 @@
 /* header nav */
 .nav {
-    & {
-        display: flex;
-        align-items: center;
-    }
+    display: flex;
+    align-items: center;
 
     &__list {
         display: flex;

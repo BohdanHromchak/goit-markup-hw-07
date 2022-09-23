@@ -1,10 +1,8 @@
 /* header contacts */
 .header-contacts {
-    & {
-        display: flex;
-        align-items: center;
-        gap: 50px;
-    }
+    display: flex;
+    align-items: center;
+    gap: 50px;
 
     &--wrap {
         margin-left: auto;
