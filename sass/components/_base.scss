@@ -26,10 +26,6 @@ img {
     height: auto;
 }
 
-// .list {
-//     list-style: none;
-// }
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -38,4 +34,13 @@ img {
 
 .section {
     padding: 94px 0;
+}
+
+.section__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--primary-txt-cl);
+    margin-bottom: 50px;
 }

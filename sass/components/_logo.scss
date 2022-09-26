@@ -6,23 +6,22 @@
     font-size: 26px;
     line-height: 1.38;
     color: var(--accent-cl);
+}
 
-    &__header {
-        color: var(--black-txt-cl);
-    }
+.logo__dark {
+    color: var(--black-txt-cl);
+}
 
-    &--header-indent {
-        margin-right: 93px;
-    }
+.logo--header-indent {
+    margin-right: 93px;
+}
 
+.logo__light {
+    color: var(--white-txt-cl);
+}
 
-    &--footer-indent {
-        margin-right: 0;
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    &__footer {
-        color: var(--white-txt-cl);
-    }
+.logo--footer-indent {
+    margin-right: 0;
+    display: block;
+    margin-bottom: 20px;
 }
